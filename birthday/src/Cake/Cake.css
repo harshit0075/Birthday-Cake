@@ -1,7 +1,39 @@
-.cake-container {
+  .cake-container {
+    text-align: center;
+    /* margin-top: 50px; */
+    background-image: url('https://www.pcclean.io/wp-content/uploads/2020/4/iUNZJn.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 70vh; 
+    max-height: 50vh;
+    max-height: 400px;
+  }
+  
+  
+  
+  /* .cake-container {
     text-align: center;
     margin-top: 50px;
+    background-image: url('https://avatars.githubusercontent.com/u/112822976?v=4');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
+   */
+   .cake {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background-image: url('https://avatars.githubusercontent.com/u/112822976?v=4');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #d89e59;
+    cursor: pointer;
+  }
+  
+  
   
   .cake {
     position: relative;
@@ -21,11 +53,18 @@
   }
   
   .banner {
+    text-align:end;
     width: 150px;
     padding: 5px;
     background-color: #ffcf40;
-    position: absolute;
-    bottom: 10px;
-    left: 25px;
+    position: fixed;
+  }
+  
+  
+  .birthday-note {
+    background-color: black;
+    margin: 40vh;
+    text-align: center;
+    color:rgb(221, 212, 213);
   }
   
